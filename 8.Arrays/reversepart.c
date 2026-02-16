@@ -7,6 +7,7 @@ void reverse(int arr[], int si, int ei) // si - starting index   ei - endin inde
         arr[i] = arr[j];
         arr[j] = temp;
     }
+    return;
 }
 int main()
 {
