@@ -13,7 +13,7 @@ int main()
         char name[50];
         float price;
         int noOfPages;
-    } book;
+    } book;   // ye book data type hai struct book ki jagah bas book hi likhna hai
 
     book a;
     book b;
