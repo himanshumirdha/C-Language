@@ -9,13 +9,13 @@ int main()
         for (int j = 1; j <= n; j++)
         {
             int a = n / 2 + 1;
-            if (j == a || i == a)
+            if (i == a || j == a)
             {
-                printf("*");
+                printf("* ");
             }
             else
             {
-                printf(" ");
+                printf("  ");
             }
         }
         printf("\n");
